@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Styles for the form container */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #8fbf4b; /* Light green border */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-entry-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-entry-form label {
+  margin-bottom: 10px;
+}
+
+.data-entry-form input,
+.data-entry-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.data-entry-form button {
+  background-color: #8fbf4b;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the entered information container */
+.entered-info-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.entered-info-container h3 {
+  margin-bottom: 15px;
+}
+
+.entered-info-container p {
+  margin-bottom: 10px;
 }
